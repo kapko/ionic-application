@@ -1,19 +1,14 @@
 import { Component } from '@angular/core';
 import { NavController, IonicPage } from 'ionic-angular';
 
-// @IonicPage()
+@IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'category',
+  templateUrl: 'category.html',
+  // styleUrls: ['./category.scss']
 })
-export class HomePage {
-
+export class CategoryPage {
   constructor(public navCtrl: NavController) {
-
-  }
-
-  clickPage(): void {
-    this.navCtrl.push('CategoryPage');
   }
 
 }
